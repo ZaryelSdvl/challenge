@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #62757f;
+
+}
+header{
+    margin-top: 1%;
+    display: flex;
+}
+
+
+.parte1{
+    /*display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 20px;*/
+    display: inline-block;
+    position: absolute;
+    top: 15%;
+    left:  20%;
+    border-radius: 10px;
+    background-color: #90a4ae;
+    width: 35%;
+    height: 45%;
+    padding: .5%;
+    text-align: center;
+}
+.parte1 textarea{
+    width: 100%;
+    height:  90%;
+    background-color: #90a4ae;
+    border: 0;       
+    outline: none;
+    font-size: 30px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: safe center;
+    resize: none;
+    overflow: auto;
+    Text-align: center;
+    
+    
+    
+}
+
+p{
+    margin: 10%;
+    padding:  1%;
+   
+}
+
+button, #copiar{
+    /*#c1d5e0*/
+    width:  30%;
+    height: 11%;
+    display: inline-block;
+    border-radius: 5px  ; 
+    background-color: #c1d5e0;
+    color: black;
+    border: 0;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 5%;
+    transition: .5s all;
+    cursor:pointer;
+}
+
+button:hover {
+    background-color: aliceblue;
+}
+#copiar:hover{
+    background-color: aliceblue;
+
+}
+
+
+
+.parte2{
+    display: inline-block;
+    position: absolute;
+    top: 1%;
+    left:  77%;
+    border-radius: 10px;
+    background-color: #90a4ae;
+    width: 20%;
+    height: 75%;
+    padding: 2px;
+    text-align: center;
+
+}
+.parte2 textarea{
+    resize: none;
+    width: 90%;
+    height: 85%;
+    background-color: #90a4ae;
+    border: none;
+    font-size: 30px;
+    outline: none;
+    margin-top: 1%;
+    text-align: center;
+    text-transform: lowercase;
+
+
+}
+#copiar{
+    position: absolute;
+    background-color: #c1d5e0;
+    width: 70%;
+    left: 10%;
+    top: 90%;
+    height: 6%;
+}
+
+
+@media screen and (max-width:820px){
+    body{
+        background-color: #62757f;
+
+        
+}
+header{
+    display: inline-block;
+    position: absolute;
+    left: 35%;
+    z-index: 1;
+}
+.parte1{
+    /*display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 20px;   #62757f*/
+    display: inline-block;
+    position: absolute;
+    top: 10%;
+    left:  21%;
+    border-radius: 10px;
+    background-color: #90a4ae;
+    width: 59%;
+    height: 35%;
+    padding: .5%;
+    
+}
+p{
+    margin-top: 18%;
+    font-size:15px;
+    
+   
+}
+
+button{
+    /*#c1d5e0*/
+    width:  44%;
+    height: 10%;
+    display: inline-block;
+    border-radius: 5px  ; 
+    background-color: #c6ced3;
+    color: rgb(7, 7, 7);
+    border: 0;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    top: 50%;
+    
+    
+}
+
+#convertirnormal{
+    padding: 2%;
+}
+button{
+    cursor: pointer;
+}
+.parte2{
+    display: inline-block;
+
+    top: 62%;
+    left:  22%;
+    border-radius: 10px;
+    background-color: #90a4ae;
+    width: 59%;
+    height: 35%;
+    padding: .5%;
+    text-align: center;
+    margin: auto;
+}
+#copiar{
+    position: absolute;
+    height: 10%;
+    top: 80%;
+}
+
+
+
+
+}
+
+
